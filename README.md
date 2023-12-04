@@ -72,3 +72,15 @@ Colaboradores:
     A tabela Colaboradores possui uma relação muitos-para-um com a tabela Empresas, indicando que um colaborador pertence a uma única empresa, mas uma empresa pode ter vários colaboradores.
     A tabela Tecnologias está relacionada à tabela Área através da coluna ID_Area, indicando a área de cada tecnologia.
 
+
+    ## Status
+    
+![GitHub Repo Size](https://img.shields.io/github/repo-size/FernandoFBO/Sql?style=for-the-badge&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/FernandoFBO/Sql?style=for-the-badge&logo=git)
+[![Licence](https://img.shields.io/github/license/FernandoFBO/Sql?style=for-the-badge)](./LICENSE)
+![Downloads](https://img.shields.io/github/downloads/FernandoFBO/Sql/total?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/FernandoFBO/Sql?style=for-the-badge)
+![Watchers](https://img.shields.io/github/watchers/FernandoFBO/Sql?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/FernandoFBO/Sql?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/FernandoFBO/Sql?style=for-the-badge)
+
