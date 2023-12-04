@@ -72,9 +72,3 @@ Colaboradores:
     A tabela Colaboradores possui uma relação muitos-para-um com a tabela Empresas, indicando que um colaborador pertence a uma única empresa, mas uma empresa pode ter vários colaboradores.
     A tabela Tecnologias está relacionada à tabela Área através da coluna ID_Area, indicando a área de cada tecnologia.
 
-
-
-ID_Area	Nome
-1	Web Dev
-2	Dados
-3	Marketing# Sql
