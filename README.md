@@ -74,27 +74,32 @@ Colaboradores:
 
 ## 4 - Simule 2 registros para cada entidade:
 
-Empresas:
+## Empresas:
+
 ID_Empresa	Nome	Endereco	Contato
 1	FBO	Rua projetada A, Rio de Janeiro, RJ	contato@FBO.com
 2	Romano	Rua projetada B, São Paulo, SP	contato@Romano.com
 
-Tecnologias:
+## Tecnologias:
+
 ID_Tecnologia	Nome	ID_Area
 1	Tech A	1
 2	Tech B	2
 
-Empresas_Tecnologias:
+## Empresas_Tecnologias:
+
 ID_Empresa_Tecnologia	ID_Empresa	ID_Tecnologia
 1	1	1
 2	1	2
 
-Colaboradores:
+## Colaboradores:
+
 ID_Colaborador	Nome	Cargo	ID_Empresa
 1	João Silva	Desenvolvedor	1
 2	Maria Oliveira	Analista	2
 
-Área:
+## Área:
+
 ID_Area	Nome
 1	Web Dev
 2	Dados
