@@ -73,7 +73,7 @@ Colaboradores:
     A tabela Tecnologias está relacionada à tabela Área através da coluna ID_Area, indicando a área de cada tecnologia.
 
 
-    ## Status
+## Status
     
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/FernandoFBO/Sql?style=for-the-badge&logo=github)
 ![GitHub last commit](https://img.shields.io/github/last-commit/FernandoFBO/Sql?style=for-the-badge&logo=git)
