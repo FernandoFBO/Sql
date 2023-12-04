@@ -1,0 +1,74 @@
+Quais são as entidades necessárias?
+
+    Empresas
+    Tecnologias
+    Empresas_Tecnologias
+    Colaboradores
+    Área
+
+Quais são os principais campos e seus respectivos tipos?
+
+Empresas:
+
+    ID_Empresa (INT - Chave Primária)
+    Nome (VARCHAR(255))
+    Endereco (VARCHAR(255))
+    Contato (VARCHAR(255))
+
+Tecnologias:
+
+    ID_Tecnologia (INT - Chave Primária)
+    Nome (VARCHAR(255))
+    ID_Area (INT - Chave Estrangeira referenciando Área)
+
+Empresas_Tecnologias:
+
+    ID_Empresa_Tecnologia (INT - Chave Primária)
+    ID_Empresa (INT - Chave Estrangeira referenciando Empresas)
+    ID_Tecnologia (INT - Chave Estrangeira referenciando Tecnologias)
+
+Colaboradores:
+
+    ID_Colaborador (INT - Chave Primária)
+    Nome (VARCHAR(255))
+    Cargo (VARCHAR(100))
+    ID_Empresa (INT - Chave Estrangeira referenciando Empresas)
+
+Área:
+
+    ID_Area (INT - Chave Primária)
+    Nome (VARCHAR(50))
+
+Como essas entidades estão relacionadas?
+
+    A tabela Empresas_Tecnologias cria um relacionamento muitos-para-muitos entre Empresas e Tecnologias, permitindo que uma empresa utilize várias tecnologias e uma tecnologia seja utilizada por várias empresas.
+    A tabela Colaboradores possui uma relação muitos-para-um com a tabela Empresas, indicando que um colaborador pertence a uma única empresa, mas uma empresa pode ter vários colaboradores.
+    A tabela Tecnologias está relacionada à tabela Área através da coluna ID_Area, indicando a área de cada tecnologia.
+
+Simule 2 registros para cada entidade:
+
+Empresas:
+ID_Empresa	Nome	Endereco	Contato
+1	FBO	Rua projetada A, Rio de Janeiro, RJ	contato@FBO.com
+2	Romano	Rua projetada B, São Paulo, SP	contato@Romano.com
+
+Tecnologias:
+ID_Tecnologia	Nome	ID_Area
+1	Tech A	1
+2	Tech B	2
+
+Empresas_Tecnologias:
+ID_Empresa_Tecnologia	ID_Empresa	ID_Tecnologia
+1	1	1
+2	1	2
+
+Colaboradores:
+ID_Colaborador	Nome	Cargo	ID_Empresa
+1	João Silva	Desenvolvedor	1
+2	Maria Oliveira	Analista	2
+
+Área:
+ID_Area	Nome
+1	Web Dev
+2	Dados
+3	Marketing
